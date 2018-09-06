@@ -2,6 +2,7 @@ class TextAnalyzer
   attr_reader :text
 
   def initialize(text)
+    binding.pry
     @text = text.downcase
   end
 
